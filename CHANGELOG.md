@@ -9,6 +9,7 @@
 * Theme of tooltip
 * Theme of vertical-tabs
 * Theme of search
+* Theme of table
 
 ## 0.6.0 (April 17, 2017)
 
