@@ -39,3 +39,16 @@
    color: egeo-get-color(n9);
 }
 
+// row theme
+.sth-table-row {
+   border-bottom: 1px solid egeo-get-color(n3);
+   font-family: egeo-get-font(body);
+   font-size: 13px;
+   line-height: 2.77;
+   color: egeo-get-color(n6);
+}
+
+.sth-table-row:hover {
+   background-color: rgba(egeo-get-color(a1), 0.1);
+}
+
