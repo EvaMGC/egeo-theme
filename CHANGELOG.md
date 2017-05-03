@@ -2,7 +2,8 @@
 
 ## 0.8.0 (upcoming)
 
-* Pending changelog
+* Theme of switch
+* Theme of form label
 
 ## 0.7.1 (April 28, 2017)
 
