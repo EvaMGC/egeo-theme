@@ -1,0 +1,10 @@
+@import '../../node_modules/@stratio/egeo-ui-base/utils/typography';
+@import '../../node_modules/@stratio/egeo-ui-base/utils/colors';
+
+.sth-form-label.error {
+   color: egeo-get-color(s2);
+}
+
+.sth-form-label.active {
+   color: egeo-get-color(a1);
+}
