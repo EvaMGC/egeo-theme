@@ -1,0 +1,43 @@
+@import '../../node_modules/@stratio/egeo-ui-base/utils/typography';
+@import '../../node_modules/@stratio/egeo-ui-base/utils/colors';
+
+.sth-switch {
+   font-family: egeo-get-font(body);
+}
+
+.sth-switch__label {
+   text-align: left;
+   font-size: 15px;
+   color: egeo-get-color(n7);
+}
+
+.sth-switch__help {
+   color: egeo-get-color(n6);
+   font-size: 12px;
+}
+
+.sth-switch__circle {
+   background-color: white;
+}
+
+.st-switch--on {
+   .sth-switch__box {
+      background-color: egeo-get-color(a1);
+   }
+   .sth-switch__circle {
+      margin-left: 13px;
+      border: solid 1px egeo-get-color(a1);
+   }
+}
+
+.st-switch--off {
+   .sth-switch__box {
+      background-color: egeo-get-color(n1);
+      border: solid 1px egeo-get-color(n5);
+   }
+
+   .sth-switch__circle {
+      border: solid 1px egeo-get-color(n5);
+   }
+}
+
