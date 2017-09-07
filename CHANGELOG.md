@@ -18,6 +18,7 @@
 * st-breadcrumb refactor
 * st-header: refactor styles
 * st-switch: add new styles
+* st-radio: Add new style
 
 ## 0.14.0 (August 18, 2017)
 

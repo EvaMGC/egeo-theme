@@ -8,27 +8,26 @@
  *
  * SPDX-License-Identifier: Apache-2.0.
  */
-@import '../../node_modules/@stratio/egeo-ui-base/utils/typography';
 @import '../constants/colors';
 @import '../constants/fonts';
 
-.sth-radio {
+.st-radio {
    font-family: $egeo-nunito-sans;
    font-size: $egeo-font-size-xsmall;
    line-height: 1.33px;
    color: $action-secondary-07;
 }
 
-.sth-radio.disabled {
+.st-radio.disabled {
    color: $neutral-05;
 }
 
 .radio-flex > * {
    display: flex;
-   margin-bottom: 16px;
+   margin-bottom: 20px;
 }
 
-.radio-flex > .sth-radio:last-of-type {
+.radio-flex > .st-radio:last-of-type {
    margin-bottom: 0;
 }
 
@@ -37,11 +36,11 @@
    margin-right: 16px;
 }
 
-.radio-inline > .sth-radio:last-of-type {
+.radio-inline > .st-radio:last-of-type {
    margin-bottom: 0;
 }
 
-.sth-radio-custom {
+.custom-radio {
    background-color: $neutral-00;
    border: 1px solid $neutral-07;
 
