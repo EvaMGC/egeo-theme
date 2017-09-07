@@ -10,55 +10,57 @@
  */
 @import '../../node_modules/@stratio/egeo-ui-base/utils/typography';
 @import '../constants/colors';
+@import '../constants/fonts';
 
 .sth-radio {
-   font-size: egeo-get-font-size(body_medium);
-   font-family: egeo-get-font(body);
+   font-family: $egeo-nunito-sans;
+   font-size: $egeo-font-size-xsmall;
+   line-height: 1.33px;
+   color: $action-secondary-07;
+}
 
-   &:hover {
+.sth-radio.disabled {
+   color: $neutral-05;
+}
 
-      .sth-radio-custom {
-         border-color: $brand;
+.radio-flex > * {
+   display: flex;
+   margin-bottom: 16px;
+}
 
-         &:before {
-            background: $brand;
-         }
-      }
+.radio-flex > .sth-radio:last-of-type {
+   margin-bottom: 0;
+}
 
-   }
+.radio-inline > * {
+   display: inline-block;
+   margin-right: 16px;
+}
 
-   &.disabled {
-      .sth-radio-custom {
-         &:hover {
-            border: 1px solid $neutral-07;
-         }
-      }
-   }
+.radio-inline > .sth-radio:last-of-type {
+   margin-bottom: 0;
 }
 
 .sth-radio-custom {
    background-color: $neutral-00;
    border: 1px solid $neutral-07;
 
-
    &.checked {
-      border-color: $neutral-13;
+      background-color: $action-primary-default;
+      border-color: $action-primary-default;
 
       &:before {
-         background: $neutral-13;
+         background-color: $neutral-00;
       }
+   }
+
+   &.disabled.checked {
+      background-color: $neutral-05;
    }
 
    &.disabled {
-      border-color: $neutral-07;
-      opacity: 0.9;
+      border-color: $neutral-05;
+      color: $neutral-05;
    }
 
-   &:hover {
-      border-color: $brand;
-
-      &:before {
-         background: $brand;
-      }
-   }
 }
