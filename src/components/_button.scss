@@ -17,8 +17,7 @@
 
    i {
       font-family: egeo-get-font(icon);
-      font-size: egeo-get-font-size(icon_xsmall);
-      vertical-align: middle;
+      vertical-align: initial;
    }
 
    &[disabled] {
@@ -198,9 +197,6 @@
       &:not([disabled]):hover {
          border: solid 2px egeo-get-color(n7);
          color: egeo-get-color(n7);
-      }
-      i {
-         margin: 7px 9px;
       }
    }
 }
