@@ -1,0 +1,95 @@
+/**
+ * © 2020 Stratio Big Data Inc., Sucursal en España.
+ *
+ * This software is licensed under the Apache License, Version 2.0.
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY};
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the terms of the License for more details.
+ *
+ * SPDX-License-Identifier: Apache-2.0.
+ */
+
+@import '../constants/index';
+
+%colors {
+  // brand:
+  --egeo-theme-brand: #{$brand};
+
+  // action:
+  --egeo-theme-action: #{$action};
+  --egeo-theme-action-10: #{$action-10};
+  --egeo-theme-action-40: #{$action-40};
+  --egeo-theme-action-60: #{$action-60};
+  --egeo-theme-action-80: #{$action-80};
+  --egeo-theme-action-120: #{$action-120};
+  --egeo-theme-action-150: #{$action-150};
+
+  // space:
+  --egeo-theme-space: #{$space};
+  --egeo-theme-space-5: #{$space-5};
+  --egeo-theme-space-10: #{$space-10};
+  --egeo-theme-space-20: #{$space-20};
+  --egeo-theme-space-30: #{$space-30};
+  --egeo-theme-space-40: #{$space-40};
+  --egeo-theme-space-50: #{$space-50};
+  --egeo-theme-space-70: #{$space-70};
+  --egeo-theme-space-80: #{$space-80};
+  --egeo-theme-space-110: #{$space-110};
+
+  // success:
+  --egeo-theme-success: #{$success};
+  --egeo-theme-success-10: #{$success-10};
+  --egeo-theme-success-120: #{$success-120};
+  --egeo-theme-success-140: #{$success-140};
+
+  // warning:
+  --egeo-theme-warning: #{$warning};
+  --egeo-theme-warning-10: #{$warning-10};
+  --egeo-theme-warning-120: #{$warning-120};
+  --egeo-theme-warning-140: #{$warning-140};
+
+  // error:
+  --egeo-theme-error: #{$error};
+  --egeo-theme-error-10: #{$error-10};
+  --egeo-theme-error-120: #{$error-120};
+  --egeo-theme-error-140: #{$error-140};
+
+  // neutral:
+  --egeo-theme-neutral: #{$neutral};
+  --egeo-theme-neutral-2: #{$neutral-2};
+  --egeo-theme-neutral-4: #{$neutral-4};
+  --egeo-theme-neutral-8: #{$neutral-8};
+  --egeo-theme-neutral-10: #{$neutral-10};
+  --egeo-theme-neutral-15: #{$neutral-15};
+  --egeo-theme-neutral-20: #{$neutral-20};
+  --egeo-theme-neutral-30: #{$neutral-30};
+  --egeo-theme-neutral-40: #{$neutral-40};
+  --egeo-theme-neutral-50: #{$neutral-50};
+  --egeo-theme-neutral-60: #{$neutral-60};
+  --egeo-theme-neutral-70: #{$neutral-70};
+  --egeo-theme-neutral-80: #{$neutral-80};
+  --egeo-theme-neutral-full: #{$neutral-full};
+
+  // misc:
+  --egeo-theme-misc-coral: #{$misc-coral};
+  --egeo-theme-misc-coral-light: #{$misc-coral-light};
+  --egeo-theme-misc-tangerine: #{$misc-tangerine};
+  --egeo-theme-misc-tangerine-light: #{$misc-tangerine-light};
+  --egeo-theme-misc-peach: #{$misc-peach};
+  --egeo-theme-misc-peach-light: #{$misc-peach-light};
+  --egeo-theme-misc-olive: #{$misc-olive};
+  --egeo-theme-misc-olive-light: #{$misc-olive-light};
+  --egeo-theme-misc-turquoise: #{$misc-turquoise};
+  --egeo-theme-misc-turquoise-light: #{$misc-turquoise-light};
+  --egeo-theme-misc-aqua: #{$misc-aqua};
+  --egeo-theme-misc-aqua-light: #{$misc-aqua-light};
+  --egeo-theme-misc-viking: #{$misc-viking};
+  --egeo-theme-misc-viking-light: #{$misc-viking-light};
+  --egeo-theme-misc-lavender: #{$misc-lavender};
+  --egeo-theme-misc-lavender-light: #{$misc-lavender-light};
+
+  // deprecated:
+  --egeo-theme-status-warning-default: #{$status-warning-default};
+  --egeo-theme-neutral-14: #{$neutral-14};
+  --egeo-theme-input-field-onfocus: #{$input-field-onfocus};
+}
