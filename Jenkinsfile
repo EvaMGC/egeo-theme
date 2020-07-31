@@ -2,7 +2,7 @@
 
 hose {
     EMAIL = 'front'
-    MODULE = 'egeo-theme'
+    MODULE = 'egeo-themes'
     DEVTIMEOUT = 30
     RELEASETIMEOUT = 30
     REPOSITORY = 'github.com/egeo-theme'
